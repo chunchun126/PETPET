@@ -1,0 +1,26 @@
+.sticky-top-lg {
+  @include media-breakpoint-up(lg) { 
+    @supports (position: sticky) {
+      position: sticky;
+      top: 80px;
+      z-index: $zindex-sticky;
+    }
+  }
+}
+
+.position-lg-absolute{
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+  }
+}
+
+.right-lg-0{
+  @include media-breakpoint-up(lg) {
+    right: 0;
+  }
+}
+.bottom-lg-0{
+  @include media-breakpoint-up(lg) {
+    bottom: 0;
+  }
+}

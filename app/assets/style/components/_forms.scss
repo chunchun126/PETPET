@@ -1,0 +1,16 @@
+.custom-input-width { 
+  width: 224px;
+  @include media-breakpoint-down(sm) { 
+    max-width: 241px;
+  }
+}
+.custom-select-width-sm {
+  width: 80px;
+}
+.custom-select-width-m {
+  width: 120px;
+  @include media-breakpoint-down(sm) { 
+    max-width: 80px;
+    width: 100%;
+  }
+}
