@@ -4112,6 +4112,7 @@ input[type="button"].btn-block {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 0;
+  height: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -11351,9 +11352,7 @@ ul, ol {
     padding-bottom: 0px; } }
 
 .banner__img {
-  background: url(../images/index-1.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: url(../images/index-1.png) no-repeat center center/cover;
   width: 43%;
   position: absolute; }
   @media (max-width: 991.98px) {
@@ -11371,7 +11370,7 @@ ul, ol {
 
 @media (max-width: 991.98px) {
   .banner__txt {
-    height: initial; } }
+    min-height: initial !important; } }
 
 .swiper-button-prev {
   display: none; }
