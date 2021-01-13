@@ -3,7 +3,7 @@
     @supports (position: sticky) {
       position: sticky;
       top: 80px;
-      z-index: $zindex-sticky;
+      z-index: 1000;
     }
   }
 }
