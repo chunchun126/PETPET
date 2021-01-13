@@ -11318,7 +11318,7 @@ ul, ol {
       position: -webkit-sticky;
       position: sticky;
       top: 80px;
-      z-index: 1020; } } }
+      z-index: 1000; } } }
 
 @media (min-width: 992px) {
   .position-lg-absolute {
